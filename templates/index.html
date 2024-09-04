@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src='{{ url_for('static',filename='js/turf.min.js') }}'></script>
+    <title>Choropleth Tutorial - Leaflet</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href='{{ url_for('static',filename='css/leaflet.css') }}'/>
+    <script src='{{ url_for('static',filename='js/leaflet.js') }} '></script>
+    <style>#map { width: 800px; height: 500px; }
+    .info { padding: 6px 8px; font: 14px/16px Arial, Helvetica, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+    .legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }</style>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .leaflet-container {
+            height: 500px;
+            width: 900px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+
+</head>
+<body>
+<a href="/map"  target="_parent" style="height: 100px;width: 200px">1111231</a>
+<div id='map' style="width: 300px;height:300px;float: left;background-color: black" ></div>
+<div id="test1" style="width: 400px;height:300px;float: left;background-color: green"></div>
+<div id="test1" style="width: 400px;height:300px;float: left;background-color: pink"></div>
+<div id="map"></div>
+<script type="text/javascript" src='{{ url_for('static',filename='js/jiangxi_competition/jiangxiTest.js') }}'></script>
+<script type="text/javascript" src='{{ url_for('static',filename='js/jiangxi_competition/dict.js') }}'></script>
+
+<script type="text/javascript">
+
+    var map = L.map('map').setView([27.6742,115.1111], 6.5);
+    map.createPane('labels');
+    map.getPane('labels').style.zIndex = 650;
+    map.getPane('labels').style.pointerEvents = 'none';
+
+    var tiles = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+    }).addTo(map);
+
+    var positronLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+        attribution: '',
+        pane: 'labels'
+    }).addTo(map);
+
+
+
+    var info = L.control();
+
+
+    var marker = L.marker([28.6820, 115.8579]).addTo(map);
+
+
+    marker.bindPopup("<b>南昌市</b>").openPopup();
+
+
+
+    info.onAdd = function (map) {
+        this._div = L.DomUtil.create('div', 'info');
+        this.update();
+        return this._div;
+    };
+
+    info.update = function (props) {
+        this._div.innerHTML = '<h4>城市碳排放量</h4>' +  (props ?
+            '<b>' + props.name + '</b><br />' + props.density + ' mi<sup>2</sup>' : '');
+    };
+
+    info.addTo(map);
+
+    // get color depending on population density value
+    function getColor(d) {
+        return d > 1 ? '#279CA6' :
+            d > 0  ? '#fc8b93' :
+                d > -1   ? '#AAB765' : '#656565';
+    }
+
+    function style(feature) {
+        // console.log(feature)
+        return {
+            weight: 3,
+            opacity: 0.5,//白边透明度
+            color: 'white',
+            dashArray: '3',
+            fillOpacity: 0.5,
+            fillColor: getColor(feature.properties
+                .density)
+        };
+    }
+
+
+
+    function highlightFeature(e) {
+        var layer = e.target;
+
+        layer.setStyle({
+            weight: 5,
+            color: 'black',
+            dashArray: '',
+            fillOpacity: 1.2
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            layer.bringToFront();
+        }
+
+        info.update(layer.feature.properties);
+    }
+
+
+
+    function resetHighlight(e) {
+        geojson.resetStyle(e.target);
+        info.update();
+    }
+
+    function zoomToFeature(e) {
+        map.fitBounds(e.target.getBounds());
+    }
+
+    function onEachFeature(feature, layer) {
+        layer.on({
+            mouseover: highlightFeature,
+            mouseout: resetHighlight,
+            click: zoomToFeature
+        });
+    }
+
+
+
+
+
+    var legend = L.control({position: 'bottomright'});
+
+    legend.onAdd = function (map) {
+
+        var div = L.DomUtil.create('div', 'info legend');
+        var grades = ['HH', 'HL', 'LH', 'LL'];
+        var labels = [];
+
+        for (var i = 0; i < grades.length; i++) {
+
+            labels.push(
+                '<i style="background:' + getColor(i-1) + '"></i> '
+                + grades[i]);
+        }
+
+        div.innerHTML = labels.join('<br>');
+        return div;
+    };
+    legend.addTo(map);
+
+    //地图图层
+    /* global statesData */
+    geojson = L.geoJson(statesData, {
+        style: style,
+        onEachFeature: onEachFeature,
+        zIndex:5
+    })
+    geojson.addTo(map);
+    //console.log(statesData);
+
+    // geojsonxian = L.geoJson(states, {
+    //     onEachFeature: onEachFeature,
+    //     zIndex:10
+    // })
+    // geojsonxian.addTo(map);
+    // console.log(geojsonxian)
+    //多边形图层
+    var options = {
+        bbox: [113.34, 24.29, 118.50, 30.04]
+    };
+    //var points = turf.randomPoint(5, options);
+    // console.log(points);
+    var voronoiPolygons = turf.voronoi(states,options);
+    //console.log(voronoiPolygons)
+
+
+    states.features.map(feature=>{//遍历的值保存在feature中
+        // console.log(feature);
+        let coord = feature.geometry.coordinates
+        L.circle([coord[1],coord[0]], {
+            radius: 2400,
+            color:'F0726C',
+            fillColor: '#F0726C',
+            fillOpacity:1.5
+        }).addTo(map)
+
+        // console.log(feature)
+    })
+
+
+
+
+    let stateFeatures={type:"FeatureCollection",features:[]};//一个新的地理底层
+    let stateFeature = {};
+    statesData.features.map(feature=>{//找到statesData的经纬度
+        voronoiPolygons.features.map(vorFeature=>{//voronoiPolygons
+            stateFeature = turf.intersect(feature,vorFeature)
+            if (stateFeature!=null)
+                stateFeatures.features.push(stateFeature)
+        })
+        // console.log(stateFeatures)
+    })
+
+    var geojsontest = L.geoJson(stateFeatures, {
+        style: {opacity: 0.5,fillOpacity: 0,color: 'black',weight:'0.5'},
+        zIndex:2
+    })
+    geojsontest.addTo(map);
+
+
+
+</script>
+
+
+</body>
+</html>

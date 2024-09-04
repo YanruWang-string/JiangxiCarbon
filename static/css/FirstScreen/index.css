@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.anchorBL{
+      display:none
+    }
+li {
+  list-style: none;
+}
+@font-face {
+  font-family: electronicFont;
+  src: url(../font/DS-DIGIT.TTF);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  /*  背景图定位 / 背景图尺寸  cover 完全铺满容器  contain 完整显示在容器内 */
+  background-size: cover;
+  /* 行高是字体1.15倍 */
+  line-height: 1.00;
+
+}
+header {
+  position: relative;
+  height: 0.57rem;
+  background-size: 100% 100%;
+  background-color: #bbbbbb;
+}
+header h1 {
+  font-size: 0.375rem;
+  text-align: center;
+  line-height: 0.60rem;
+}
+header .showTime {
+  position: absolute;
+  top: 5px;
+  right: 0.375rem;
+  line-height: 0.2375rem;
+  font-size: 0.20rem;
+  padding: 0.09rem;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  border-width: 0.5px;
+  background-color: white;
+}
+.mainbox {
+  min-width: 1024px;
+  max-width: 1920px;
+  padding: 0 0 0;
+  display: flex;/*父亲是大盒子*/
+}
+.mainbox .column {
+  flex: 3;
+}
+.column:nth-child(2){
+  flex:4;
+  margin: 0 0.13rem;
+   }/*column里面第二个孩子占了5份*/
+
+
+.panel {
+  position: relative;
+  height: 4.015rem;
+  border: 1px solid #dddddd;
+  padding: 0.07rem 0.1275rem 0.2rem;
+  margin-bottom: 0.1875rem;
+}
+.panel::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+.panel::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+.panel .panel-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.panel .panel-footer::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+.panel .panel-footer::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+}
+.panel h2 {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  text-align: center;
+  color: black;
+  font-size: 0.20rem;
+  font-weight: 350;
+}
+.panel h2 a {
+  margin: 0 0.1875rem;
+  color: black;
+  text-decoration: underline;
+}
+.panel .chart {
+  height: 3.9rem;
+}
+.no {
+height: 6.025rem;
+}
+.no .no-hd {
+  height: 6.025rem;
+  position: relative;
+  border: 1px solid #dddddd;
+}
+.no .no-hd::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  top: 0;
+  left: 0;
+}
+.no .no-hd::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  right: 0;
+  bottom: 0;
+}
+
+.map {
+  height: 6.245rem;
+  margin-top: 0.13rem;
+
+}
+.map .chart {
+  border: 1px solid #dddddd;
+  position: relative;
+  height: 6.245rem;
+}
+.map .chart::before{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  top: 0;
+  left: 0;
+}
+.map .chart::after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  right: 0;
+  bottom: 0;
+}
+
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes rotate1 {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 42px !important;
+  }
+}
+@media screen and (min-width: 1920) {
+  html {
+    font-size: 80px !important;
+  }
+}

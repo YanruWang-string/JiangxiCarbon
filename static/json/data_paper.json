@@ -1,0 +1,1094 @@
+[
+  {
+    "name": "CS",
+    "itemStyle": {
+      "color": "#a87b64"
+    },
+    "children": [
+      {
+        "name": "cs.AI",
+        "value": 4723,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CL",
+        "value": 5117,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CC",
+        "value": 824,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CE",
+        "value": 449,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CG",
+        "value": 592,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.GT",
+        "value": 901,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CV",
+        "value": 11168,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CY",
+        "value": 1436,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.CR",
+        "value": 2931,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.DS",
+        "value": 2131,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.DB",
+        "value": 717,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.DL",
+        "value": 336,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.DM",
+        "value": 1141,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.DC",
+        "value": 2025,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.ET",
+        "value": 404,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.FL",
+        "value": 473,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.GL",
+        "value": 29,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.GR",
+        "value": 490,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.AR",
+        "value": 243,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.HC",
+        "value": 1392,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.IR",
+        "value": 1608,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.LO",
+        "value": 470,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "stat.ML",
+        "value": 177,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.MS",
+        "value": 149,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.MA",
+        "value": 674,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.MM",
+        "value": 488,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.NI",
+        "value": 1874,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.NE",
+        "value": 1501,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.NA",
+        "value": 1834,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.OS",
+        "value": 91,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.OH",
+        "value": 126,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.PF",
+        "value": 395,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.PL",
+        "value": 692,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.RO",
+        "value": 2631,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.SI",
+        "value": 1798,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.SE",
+        "value": 1161,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.SD",
+        "value": 1175,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cs.SC",
+        "value": 200,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "eess.SY",
+        "value": 2414,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "STAT",
+    "itemStyle": {
+      "color": "#ad213e"
+    },
+    "children": [
+      {
+        "name": "stat.AP",
+        "value": 1784,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "stat.CO",
+        "value": 800,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "stat.ML",
+        "value": 66,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "stat.ME",
+        "value": 2363,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "stat.OT",
+        "value": 146,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "PH",
+    "itemStyle": {
+      "color": "#c94930"
+    },
+    "children": [
+      {
+        "name": "physics.acc-ph",
+        "value": 426,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nlin.AO",
+        "value": 432,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.app-ph",
+        "value": 2555,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "astro-ph.GA",
+        "value": 4886,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.ao-ph",
+        "value": 447,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.atom-ph",
+        "value": 1248,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.atm-clus",
+        "value": 150,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.bio-ph",
+        "value": 1769,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nlin.CG",
+        "value": 57,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nlin.CD",
+        "value": 125,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.chem-ph",
+        "value": 1501,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.class-ph",
+        "value": 579,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.comp-ph",
+        "value": 2029,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "astro-ph.CO",
+        "value": 3604,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.data-an",
+        "value": 602,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.dis-nn",
+        "value": 1022,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "value": 2227,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nlin.SI",
+        "value": 626,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.flu-dyn",
+        "value": 2077,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.gen-ph",
+        "value": 495,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "gr-qc",
+        "value": 5412,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.geo-ph",
+        "value": 505,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "astro-ph.HE",
+        "value": 5144,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "hep-ex",
+        "value": 5352,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "hep-lat",
+        "value": 1110,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "hep-ph",
+        "value": 7287,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "hep-th",
+        "value": 7011,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.hist-ph",
+        "value": 338,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.ins-det",
+        "value": 1941,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "astro-ph.IM",
+        "value": 2669,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.mtrl-sci",
+        "value": 5417,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.med-ph",
+        "value": 612,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.mes-hall",
+        "value": 5639,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nucl-ex",
+        "value": 2714,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nucl-th",
+        "value": 2229,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.optics",
+        "value": 3333,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.other",
+        "value": 405,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "nlin.PS",
+        "value": 523,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.ed-ph",
+        "value": 977,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.soc-ph",
+        "value": 1372,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.plasm-ph",
+        "value": 1057,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.pop-ph",
+        "value": 157,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.quant-gas",
+        "value": 1429,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "quant-ph",
+        "value": 8571,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.soft",
+        "value": 2209,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "astro-ph.SR",
+        "value": 3844,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "physics.space-ph",
+        "value": 478,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.stat-mech",
+        "value": 3322,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.str-el",
+        "value": 1440,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "cond-mat.supr-con",
+        "value": 1761,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "EESS",
+    "itemStyle": {
+      "color": "#0aa3b5"
+    },
+    "children": [
+      {
+        "name": "eess.AS",
+        "value": 1283,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "eess.IV",
+        "value": 2482,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "eess.SP",
+        "value": 3404,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Q-BIO",
+    "itemStyle": {
+      "color": "#187a2f"
+    },
+    "children": [
+      {
+        "name": "q-bio.BM",
+        "value": 270,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.CB",
+        "value": 169,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.GN",
+        "value": 174,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.MN",
+        "value": 44,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.NC",
+        "value": 908,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.OT",
+        "value": 59,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.PE",
+        "value": 696,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.QM",
+        "value": 742,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.SC",
+        "value": 108,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-bio.TO",
+        "value": 204,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "MATH",
+    "itemStyle": {
+      "color": "#ebb40f"
+    },
+    "children": [
+      {
+        "name": "math.AG",
+        "value": 4194,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.AT",
+        "value": 1284,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.AP",
+        "value": 5204,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.CT",
+        "value": 716,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.CA",
+        "value": 1808,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.CO",
+        "value": 5683,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.AC",
+        "value": 1000,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.CV",
+        "value": 1280,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.DG",
+        "value": 3149,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.DS",
+        "value": 3018,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.FA",
+        "value": 2538,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.GM",
+        "value": 299,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.GN",
+        "value": 417,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.GT",
+        "value": 1782,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.GR",
+        "value": 1805,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.HO",
+        "value": 308,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.KT",
+        "value": 486,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.LO",
+        "value": 1147,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.MG",
+        "value": 994,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.NT",
+        "value": 3643,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.NA",
+        "value": 3236,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.OA",
+        "value": 932,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.OC",
+        "value": 4416,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.PR",
+        "value": 4430,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.QA",
+        "value": 1036,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.RT",
+        "value": 2151,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.RA",
+        "value": 1344,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.SP",
+        "value": 748,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "math.SG",
+        "value": 724,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Q-FIN",
+    "itemStyle": {
+      "color": "#da1d23"
+    },
+    "children": [
+      {
+        "name": "q-fin.CP",
+        "value": 164,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.EC",
+        "value": 347,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.GN",
+        "value": 193,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.MF",
+        "value": 303,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.PM",
+        "value": 153,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.PR",
+        "value": 122,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.RM",
+        "value": 166,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.ST",
+        "value": 50,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "q-fin.TR",
+        "value": 140,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  },
+  {
+    "name": "ECON",
+    "itemStyle": {
+      "color": "#da0d68"
+    },
+    "children": [
+      {
+        "name": "econ.EM",
+        "value": 114,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      },
+      {
+        "name": "econ.TH",
+        "value": 180,
+        "itemStyle": {
+          "color": "#e0719c"
+        }
+      }
+    ]
+  }
+]

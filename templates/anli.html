@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/FirstScreen/index.css" />
+</head>
+
+<body>
+<header>
+    <h1 style="color: white">碳排放时空分布总览</h1>
+    <div class="showTime" style="color: black" ><a href="/map"  target="_parent">评估和预测</a></div>
+</header>
+<section class="mainbox">
+    <div class="column">
+        <div class="panel bar">{# AQI，热力图的横坐标代表2000年到2019年，纵坐标代表江西省各市，值的大小代表AQI，交互可以定位年和地区 #}
+            <div class="chart"  id="aqi"></div>
+            <div class="panel-footer"></div>
+        </div>
+        <div class="panel line">
+            <div class="chart" id="temperature" ></div>
+            <div class="panel-footer"></div>
+        </div>
+        <div class="panel pie">
+            <div class="chart" id="gdp"></div>{# 做成各市历年温度和碳排放关系图，横坐标表示时间，用雨流量关系图 #}
+            <div class="panel-footer"></div>
+        </div>
+    </div>
+    <div class="column">{# 中间的大盒子 #}
+        <div class="no">
+            <div class="no-hd" id="map">{# 地图做一个动画，在江西省各市每一个地方加一个标签 #}
+            </div>
+        </div>
+        <div class="map">
+            <div class="chart" id="ny">
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="panel bar1">
+            <div class="chart" id="green"></div>
+            <div class="panel-footer"></div>
+        </div>
+        <div class="panel line1">
+            <div class="chart" id="rain"></div>
+            <div class="panel-footer"></div>
+        </div>
+        <div class="panel pie1">
+           {# 内圈是各市，外圈是各区县 #}
+            <div class="chart" id="net"></div>
+            <div class="panel-footer"></div>
+        </div>
+    </div>
+</section>
+<script src="../static/js/flexible.js"></script>
+<script src="../static/js/jquery-1.11.0.min.js"></script>
+<script src="../static/js/echarts54.js"></script>
+<script src="../static/js/bmap.min.js"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=YMiUkGcHXss47AjS5zMFEN9IELpAw89E>"></script>
+{#<script src="../static/js/jiangxi_competition/FirstScreen/index.js"></script>#}
+<script src="../static/js/jiangxi_competition/FirstScreen/temperature.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/ny.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/map.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/green.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/gdp.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/net.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/rain.js"></script>
+<script src="../static/js/jiangxi_competition/FirstScreen/js/aqi.js"></script>
+</body>
+</html>

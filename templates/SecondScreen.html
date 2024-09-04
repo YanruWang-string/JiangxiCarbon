@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/FirstScreen/SecondScreen.css" />
+</head>
+
+<body>
+<header>
+    <h1 style="color: white">碳排放评估和预测</h1>
+    <div class="showTime" style="color: black" ><a href="/main"  target="_parent">碳排放时空分布总览</a></div>
+</header>
+<section class="mainbox">
+    <div class="column">
+        <div class="panel bar" style="height: 600px">
+            <div class="chart"  id="aqi">1</div>
+        </div>
+        <div class="panel pie">
+            <div class="chart_bottom" id="gdp">3</div>
+        </div>
+    </div>
+    <div class="column">{# 中间的大盒子 #}
+        <div class="no">
+            <div class="no-hd" id="map">
+            </div>
+        </div>
+        <div class="map">
+            <div class="chart" id="ny">
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="panel bar1" style="height: 600px">
+            <div class="chart" id="green"></div>
+        </div>
+        <div class="panel pie1">
+            <div class="chart_bottom" id="net" ></div>
+        </div>
+    </div>
+</section>
+<script src="../static/js/flexible.js"></script>
+<script src="../static/js/jquery-1.11.0.min.js"></script>
+<script src="../static/js/echarts54.js"></script>
+<script src="../static/js/bmap.min.js"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&ak=YMiUkGcHXss47AjS5zMFEN9IELpAw89E>"></script>
+</body>
+</html>
